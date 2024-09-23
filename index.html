@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keepa Data Checker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+        }
+        #inputSection {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Keepa Data Checker</h1>
+    <div id="inputSection">
+        <h2><label for="userInput">Enter the ASIN</label></h2>
+        <input type="text" id="userInput"><br><br>
+        <button id="submitBtn">Submit</button>
+    </div>
+    <div id="outputSection">
+        <h2>API Response</h2>
+        <p>Referral Fee (%): <span id="number1"></span></p>
+        <p>Pick & Pack fee ($): <span id="number2"></span></p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
